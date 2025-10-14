@@ -3187,9 +3187,6 @@ Disable encryption: Only connect to peers without protocol encryption</string>
                  <property name="text">
                   <string>When ratio reaches</string>
                  </property>
-                 <property name="buddy">
-                  <cstring>spinMaxRatio</cstring>
-                 </property>
                 </widget>
                </item>
                <item row="0" column="1">
@@ -3223,9 +3220,6 @@ Disable encryption: Only connect to peers without protocol encryption</string>
                  <property name="text">
                   <string>When total seeding time reaches</string>
                  </property>
-                 <property name="buddy">
-                  <cstring>spinMaxSeedingMinutes</cstring>
-                 </property>
                 </widget>
                </item>
                <item row="1" column="1">
@@ -3248,9 +3242,6 @@ Disable encryption: Only connect to peers without protocol encryption</string>
                 <widget class="QCheckBox" name="checkMaxInactiveSeedingMinutes">
                  <property name="text">
                   <string>When inactive seeding time reaches</string>
-                 </property>
-                 <property name="buddy">
-                  <cstring>spinMaxInactiveSeedingMinutes</cstring>
                  </property>
                 </widget>
                </item>
